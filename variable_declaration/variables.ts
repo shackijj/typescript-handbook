@@ -91,4 +91,4 @@ function func1({a, b = 0} = {a: ""}): void {
 
 func1({a: "y"});
 func1(); // a= ""; b = 0
-func1({});
+// func1({}); ERR: Property 'a' is missing in type '{}'.
