@@ -1,1 +1,2 @@
 *.js
+namespaces_and_modules/ambient_example/node_modules/*
