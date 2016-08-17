@@ -1,0 +1,1 @@
+declare function addLater (x: number, y: number, fn: (x: number) => void): void;
