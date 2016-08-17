@@ -3,6 +3,6 @@ export function getElement(node: string, obCache?: boolean): HTMLElement {
     return BX(node, obCache);
 }
 
-export function addClass(ob: string | HTMLElement, value: string) {
+export function addClass(ob: string | HTMLElement, value: string):HTMLElement {
     return BX.addClass(ob, value);
 }
